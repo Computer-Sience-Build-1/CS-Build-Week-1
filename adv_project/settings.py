@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = config('DEBUG', cast=bool)
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -155,6 +155,12 @@ STATIC_URL = '/static/'
 GRAPHENE = {
     'SCHEMA': 'adventure.schema.schema'
 }
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.DjangoModelPermissionsOrAndReadOnly'
+#     ]
+# }
 
 import django_heroku
 django_heroku.settings(locals())
