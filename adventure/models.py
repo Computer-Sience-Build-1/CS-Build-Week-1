@@ -63,6 +63,12 @@ def save_user_player(sender, instance, **kwargs):
     instance.player.save()
 
 
+'''
+you need to add two models for the map and for 
+
+you need to update the urls for the endpoints
+
+'''
 
 
 
