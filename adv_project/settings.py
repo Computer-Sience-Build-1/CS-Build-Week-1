@@ -154,6 +154,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+
 # GRAPHENE = {
 #     'SCHEMA': 'adventure.schema.schema'
 # }
@@ -163,6 +164,7 @@ STATIC_URL = '/static/'
 #         'rest_framework.permissions.DjangoModelPermissionsOrAndReadOnly'
 #     ]
 # }
+
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
